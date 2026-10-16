@@ -40,7 +40,7 @@ const SECTIONS: { number: string; title: string; paragraphs: string[] }[] = [
     number: "04",
     title: "Your Agreement to These Terms",
     paragraphs: [
-      "By authorizing automatic withdrawals from your designated bank account for loan repayment, you acknowledge acceptance of these Terms. These Terms have been made accessible to you through multiple channels—including our physical location, our website at 365loan.ca, and through direct communication with our representatives—before you finalize your transaction.",
+      "By authorizing automatic withdrawals from your designated bank account for loan repayment, you acknowledge acceptance of these Terms. These Terms have been made accessible to you through multiple channels—including our physical location, our website at 365loan.online, and through direct communication with our representatives—before you finalize your transaction.",
     ],
   },
   {
@@ -147,10 +147,10 @@ export default function TermsOfUsePage() {
               </p>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <a
-                  href="mailto:legal@365loan.ca"
+                  href="mailto:legal@365loan.online"
                   className="text-[0.95rem] font-semibold text-primary hover:text-primary/80 transition-colors"
                 >
-                  legal@365loan.ca
+                  legal@365loan.online
                 </a>
                 <p className="text-[0.8rem] text-muted-foreground">
                   Last Updated: January 16, 2026

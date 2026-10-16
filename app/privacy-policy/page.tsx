@@ -187,10 +187,10 @@ export default function PrivacyPolicyPage() {
                   Contact Us
                 </p>
                 <a
-                  href="mailto:privacy@365loan.ca"
+                  href="mailto:privacy@365loan.online"
                   className="text-[0.95rem] font-semibold text-primary hover:text-primary/80 transition-colors"
                 >
-                  privacy@365loan.ca
+                  privacy@365loan.online
                 </a>
               </div>
               <p className="text-[0.8rem] text-muted-foreground">

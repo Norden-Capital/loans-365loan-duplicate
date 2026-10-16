@@ -1,13 +1,5 @@
-/* ── Per-site config — THE ONLY LINES THAT CHANGE BETWEEN SITES ───────────
-   Deliberately self-contained: this file imports nothing from lib/, so it
-   drops into any site in the network unchanged apart from these two values.
-
-   SITE_NAME    labels the subject line, e.g. "[365loan] New message — Jane".
-   TO_ADDRESS   where it lands. Forwarded by Cloudflare Email Routing, so it
-                needs no verification anywhere.
-   SENDER_DOMAIN must be a domain verified in Resend. 365loan.ca is the one
-                verified sender for the whole network — leave it alone until
-                a site gets its own verified domain.                       */
+/* Per-site label used in contact-email subjects and sender names. SMTP sender
+   and recipient addresses are configured through deployment environment variables. */
 import nodemailer from "nodemailer";
 import { buildBrandedContactEmail } from "@/lib/contact-email";
 

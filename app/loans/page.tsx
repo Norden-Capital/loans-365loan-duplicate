@@ -21,12 +21,12 @@ const CATEGORY_ITEMLIST_JSONLD = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "By Amount", url: "https://365loan.ca/loans/by-amount" },
-    { "@type": "ListItem", position: 2, name: "By Purpose", url: "https://365loan.ca/loans/by-purpose" },
-    { "@type": "ListItem", position: 3, name: "By Credit Score", url: "https://365loan.ca/loans/by-credit-score" },
-    { "@type": "ListItem", position: 4, name: "By Type", url: "https://365loan.ca/loans/by-type" },
-    { "@type": "ListItem", position: 5, name: "By Location", url: "https://365loan.ca/loans/by-location" },
-    { "@type": "ListItem", position: 6, name: "By Repayment Term", url: "https://365loan.ca/loans/by-term" },
+    { "@type": "ListItem", position: 1, name: "By Amount", url: "https://365loan.online/loans/by-amount" },
+    { "@type": "ListItem", position: 2, name: "By Purpose", url: "https://365loan.online/loans/by-purpose" },
+    { "@type": "ListItem", position: 3, name: "By Credit Score", url: "https://365loan.online/loans/by-credit-score" },
+    { "@type": "ListItem", position: 4, name: "By Type", url: "https://365loan.online/loans/by-type" },
+    { "@type": "ListItem", position: 5, name: "By Location", url: "https://365loan.online/loans/by-location" },
+    { "@type": "ListItem", position: 6, name: "By Repayment Term", url: "https://365loan.online/loans/by-term" },
   ],
 };
 

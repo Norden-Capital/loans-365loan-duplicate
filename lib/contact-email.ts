@@ -33,7 +33,7 @@ export function buildBrandedContactEmail(input: ContactEmailInput) {
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f5f4">
     <tr><td align="center" style="padding:32px 12px">
       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:600px;background:#ffffff;border:1px solid #dfe4e1">
-        <tr><td background="https://365loan.ca/assets/email/contact-header-bg.jpg" style="padding:76px 32px;background-color:#176e4a;background-image:url('https://365loan.ca/assets/email/contact-header-bg.jpg');background-position:center;background-size:cover;color:#ffffff;text-align:center">
+        <tr><td background="https://365loan.online/assets/email/contact-header-bg.jpg" style="padding:76px 32px;background-color:#176e4a;background-image:url('https://365loan.online/assets/email/contact-header-bg.jpg');background-position:center;background-size:cover;color:#ffffff;text-align:center">
           <h1 style="margin:0;font-size:34px;line-height:1.15;font-weight:700;letter-spacing:-0.8px;color:#ffffff">New message from ${escapeHtml(name)}</h1>
           <div style="margin-top:14px;font-size:16px;line-height:1.4;font-weight:400;color:#e4f5eb">${escapeHtml(subject || topic)}</div>
         </td></tr>
@@ -47,11 +47,11 @@ export function buildBrandedContactEmail(input: ContactEmailInput) {
           </div>
         </td></tr>
         <tr><td align="center" style="padding:24px 32px 28px">
-          <img src="https://365loan.ca/logo.svg" width="96" alt="365loan" style="display:block;width:96px;max-width:100%;height:auto;margin:0 auto;border:0">
+          <img src="https://365loan.online/logo.svg" width="96" alt="365loan" style="display:block;width:96px;max-width:100%;height:auto;margin:0 auto;border:0">
           <div style="margin-top:14px;font-size:11px;line-height:1.6;color:#66716b">
-            <a href="https://365loan.ca/privacy-policy" style="color:#52605a;text-decoration:underline">Privacy Policy</a>
+            <a href="https://365loan.online/privacy-policy" style="color:#52605a;text-decoration:underline">Privacy Policy</a>
             <span style="padding:0 7px;color:#b0b7b3">|</span>
-            <a href="https://365loan.ca/terms-of-use" style="color:#52605a;text-decoration:underline">Terms of Use</a>
+            <a href="https://365loan.online/terms-of-use" style="color:#52605a;text-decoration:underline">Terms of Use</a>
           </div>
           <div style="margin-top:14px;font-size:10px;line-height:1.65;color:#8a938e">
             Sent securely from the 365loan contact form.<br>

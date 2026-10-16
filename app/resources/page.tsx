@@ -21,10 +21,10 @@ const RESOURCES_ITEMLIST_JSONLD = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Guides", url: "https://365loan.ca/resources/guides" },
-    { "@type": "ListItem", position: 2, name: "Loan Calculator", url: "https://365loan.ca/resources/tools/loan-calculator" },
-    { "@type": "ListItem", position: 3, name: "Comparisons", url: "https://365loan.ca/resources/comparisons" },
-    { "@type": "ListItem", position: 4, name: "FAQ", url: "https://365loan.ca/resources/faq" },
+    { "@type": "ListItem", position: 1, name: "Guides", url: "https://365loan.online/resources/guides" },
+    { "@type": "ListItem", position: 2, name: "Loan Calculator", url: "https://365loan.online/resources/tools/loan-calculator" },
+    { "@type": "ListItem", position: 3, name: "Comparisons", url: "https://365loan.online/resources/comparisons" },
+    { "@type": "ListItem", position: 4, name: "FAQ", url: "https://365loan.online/resources/faq" },
   ],
 };
 

@@ -22,11 +22,11 @@ const contactPointJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "365loan",
-  url: "https://365loan.ca",
+  url: "https://365loan.online",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+1-800-365-5626",
-    email: "support@365loan.ca",
+    email: "support@365loan.online",
     contactType: "customer service",
     areaServed: "CA",
     availableLanguage: ["English", "French"],
@@ -42,7 +42,7 @@ const contactPointJsonLd = {
 };
 
 const CONTACT_INFO = [
-  { icon: Mail,  label: "Email",  value: "support@365loan.ca",                href: "mailto:support@365loan.ca" },
+  { icon: Mail,  label: "Email",  value: "support@365loan.online",            href: "mailto:support@365loan.online" },
   { icon: Phone, label: "Phone",  value: "1-800-365-5626",                    href: "tel:+18003655626" },
   { icon: MapPin,label: "Office", value: "20 Bay Street, Toronto, ON M5J 2N8" },
   { icon: Clock, label: "Hours",  value: "Mon–Fri, 9am–6pm EST" },

@@ -23,7 +23,7 @@ const fontMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://365loan.ca"),
+  metadataBase: new URL("https://365loan.online"),
   title: {
     default: "365loan | Find the Best Personal Loans in Canada",
     template: "%s",
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
   authors: [{ name: "365loan" }],
   creator: "365loan",
   alternates: {
-    canonical: "https://365loan.ca",
+    canonical: "https://365loan.online",
   },
   openGraph: { images: [{ url: "/opengraph-image.png", width: 1200, height: 630 }],
     type: "website",
     locale: "en_CA",
-    url: "https://365loan.ca",
+    url: "https://365loan.online",
     title: "365loan - Compare Personal Loans in Canada",
     description: "Find and compare the best personal loans in Canada. Get matched with lenders based on your credit score, amount, and purpose.",
     siteName: "365loan",
@@ -70,8 +70,8 @@ const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "365loan",
-  url: "https://365loan.ca",
-  logo: "https://365loan.ca/logo.svg",
+  url: "https://365loan.online",
+  logo: "https://365loan.online/logo.svg",
   description: "365loan is a Canadian personal loan comparison platform connecting consumers with vetted third-party lenders.",
 };
 
@@ -79,7 +79,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "365loan",
-  url: "https://365loan.ca",
+  url: "https://365loan.online",
 };
 
 export default function RootLayout({
@@ -116,7 +116,7 @@ export default function RootLayout({
 
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-V1M4BZ6MD0"
+          src="https://www.googletagmanager.com/gtag/js?id=G-50RLJ6F927"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -125,7 +125,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-V1M4BZ6MD0');
+            gtag('config', 'G-50RLJ6F927');
           `}
         </Script>
 
@@ -136,7 +136,7 @@ export default function RootLayout({
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
               t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
               y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "y1rkv2tku7");
+            })(window, document, "clarity", "script", "yypez49r71");
           `}
         </Script>
       </body>
