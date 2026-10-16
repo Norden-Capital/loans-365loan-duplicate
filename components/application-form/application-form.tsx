@@ -73,7 +73,7 @@ export function ApplyForm() {
         email: email || "",
       },
       extra: {
-        affiliate_sub1: affiliate_sub1 || "365loan",
+        affiliate_sub1: affiliate_sub1 || "365loan-online",
         affiliate_sub2: affiliate_sub2 || "",
         affiliate_sub5: affiliate_sub5 || null,
         aff_utm_source: source || "",

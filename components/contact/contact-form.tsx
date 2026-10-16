@@ -16,7 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { NativeSelect } from "@/components/ui/native-select";
-import { submitContactForm, type ContactStatus } from "@/lib/contact";
+import type { ContactStatus } from "@/lib/contact";
 
 const TOPICS = [
   "General enquiry",
@@ -48,18 +48,14 @@ export function ContactForm() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (status === "submitting") return;
+    const form = e.currentTarget;
 
     setStatus("submitting");
     setError("");
 
-    const result = await submitContactForm(e.currentTarget);
-
-    if (!result.ok) {
-      setError(result.error);
-      setStatus("error");
-      return;
-    }
-
+    // Temporary success-only flow until Cloudflare form delivery is connected.
+    await Promise.resolve();
+    form.reset();
     setStatus("success");
   }
 
